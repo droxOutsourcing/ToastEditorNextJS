@@ -1,14 +1,20 @@
 {
+  "name": "toast-editor-next",
+  "version": "1.0.0",
+  "main": "components/ToastEditor.tsx",
+  "types": "components/ToastEditor.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "next": "^13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "@toast-ui/react-editor": "^3.0.0",
-    "@toast-ui/editor": "^3.0.0"
+    "@toast-ui/editor": "^3.0.0",
+    "multer": "^1.4.5"
   },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  }
+  "license": "MIT"
 }
